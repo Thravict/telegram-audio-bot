@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "telegram-audio-bot"
+version = "0.1.0"
+description = ""
+authors = ["Jakob Friedrich"]
+license = "Apache License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-telegram-bot = "^21.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -9,7 +9,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.13"
 python-telegram-bot = "^21.9"
+pyyaml = "^6.0.2"
 
+[tool.poetry.scripts]
+telegram-audio-inline-bot = "telegram_audio_bot:main"
 
 [build-system]
 requires = ["poetry-core"]
